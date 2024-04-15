@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>LLM</title>
+    <style>
+        body {
+            font-family: "Georgia", sans-serif;
+            margin: 50px;
+        }
+        h1 {
+            color: black;
+            font-size: 36px;
+            font-weight: bold;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: black;
+            font-size: 24px;
+            font-weight: bold;
+            line-height: 1.5;
+            margin-bottom: 10px;
+        }
+        p {
+            color: black;
+            font-size: 18px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            color: #333;
+            font-size: 18px;
+            line-height: 1.5;
+            margin-bottom: 10px;
+        }
+        .pros {
+            background-color: #DAF7A6;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .cons {
+            background-color: #FFC300;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .step {
+            background-color: #7FD8EE;
+            border-radius: 10px;
+            padding: 22px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div style="background-color: white; padding: 20px;">
+        <p style="font-size: 16px;">CS1102 - Course Project - 2023/2024 Semester B<br>
+        <p style="font-size: 16px;">Lam Ka Chun 57137863<br>
+        <p style="font-size: 16px;">Chan Tsz Kin 57146362<br>
+        <p style="font-size: 16px;">Topic: The pros and cons of Large Language Models<br>
+        </div>
+    <h1>Advantages and Limitations of LLMs:</h1>
+    <p><b>Pros:</b></p>
+    <ul class="pros">
+        <li><b>Language Generation:</b> Large language models are helpful for writing assignments like content creation, writing support, and creative writing because they can produce text that looks like that of humans.</li>
+        <li><b>Language Understanding:</b> To a certain extent, these models can comprehend and interpret human language. They can provide relevant data, analyze text, and respond to inquiries.</li>
+        <li><b>Versatility:</b> Large language models can be adjusted for particular uses, like chatbots, and translation. Their potential applications vary across multiple industries, for instance, data collecting in the accounting industry and customer services in the retail sector.</li>
+    </ul>
+    <p><b>Cons:</b></p>
+    <ul class="cons">
+        <li><b>Bias and Ethical Issues:</b> Biases from the training data may be inherited by language models, leading to invalid or biased outputs. Social ethics may not align with the biased model. They might cause ethical questions, especially regarding potential abuse, like producing deepfake content or inaccurate information.</li>
+        <li><b>Computational Requirements:</b> Large language models require a significant amount of data and energy to train and operate. This may reduce their sustainability and accessibility.</li>
+        <li><b>Data Privacy:</b> It is possible for language models to process and store private information that is shared during conversations. Sometimes the model "memorizes" the training data because of its large capacity. Parameters could reveal private training data information.</li>
+    </ul>
+    <p><b>Run LLMs locally with Ollama:</b></p>
+    <ol class="step">
+        <li>Go to <a href="https://ollama.com/">Ollama</a> and install it.<br><img src="Ollama.png" width="300px"></br></li> 
+        <li>After installation, you can enter Ollama in the terminal.<br><img src="terminal.png" width="500px"></br></li>
+        <li>Enter Ollama pull &lt;model names&gt; to download different models from <a href="https://ollama.com/library?sort=featured">Ollama Library</a>. We used models like mixtral for example.</li>
+        <br><img src="pull.png" width="400px"></br>
+        <li>Enter Ollama run mixtral to run the models and you can talk with Ollama now!</li>
+        <br><img src="run.png" width="500px"></br>
+    </ol>
+    <div class="pagination">
+		<a href="index.html"><</a>
+		<a href="index.html">1</a>
+		<a href="page 2.html" class="active">2</a>
+		<a href="page 2.html">></a>
+	</div>
+</body>
+</html>
